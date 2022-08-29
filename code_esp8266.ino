@@ -18,7 +18,7 @@ float temp, temp_f, humed, hi;
 //Conexión a la red WIFI
 const char* ssid = "bacco 2.4 GHZ";            //nombre de la red
 const char* password = "frecuencia34"; //contraseña de la red
-const char* mqtt_server = "192.168.0.24";      //ip del broker
+const char* mqtt_server = "192.168.0.15";      //ip del broker
 
 //Inicializamos el objeto de cliente esp
 WiFiClient espClient;
